@@ -3,7 +3,7 @@ import "./Typing.css";
 import { io } from "socket.io-client";
 // import axios from "axios";
 
-const socket = io("https://socket-io-demo-backend.onrender.com" , {
+const socket = io(" https://socket-io-demo-backend-final.onrender.com" , {
       transports: ["websocket"]
 });
 
